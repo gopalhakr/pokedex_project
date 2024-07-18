@@ -1,4 +1,31 @@
 .pokemon-list-wrapper
 {
-    margin: 0 auto;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon-wrapper
+{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pokemon-name-list-colour
+{
+    color: rgb(59, 17, 197);
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.button-control
+{
+    margin-left: 1rem;
+    padding: 1rem 0.5rem;
+    color: aqua;
 }
