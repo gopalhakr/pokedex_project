@@ -8,10 +8,10 @@ function Pokedex()
 {
     return(
         <div className='pokedex-wrapper'>
-           <h1 id='pokedex-heading'>Pokedex</h1> 
+            
         
         <Search/> 
-        {/* // this is the name that you import from the file*/}
+        {/* // this is the name that you import from the file ex: import Search from*/}
         <PokemonList/>
         </div>
     )
